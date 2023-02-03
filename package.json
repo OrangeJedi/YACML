@@ -1,5 +1,5 @@
 {
-  "name": "yacml",
+  "name": "@orangejedi/yacml",
   "version": "1.0.0",
   "description": "Yet Another Color Manipulation Library",
   "main": "index.js",

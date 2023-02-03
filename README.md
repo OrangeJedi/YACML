@@ -25,12 +25,12 @@ any updates, but this has been a fun project that I wouldn't mind working more o
 
 ## Basic usage
 
-Install with NPM `npm i yacml --save`
+Install with NPM `npm i @orangejedi/yacml --save`
 
 Simply require YACML in your script like so:
 
 ```javascript
-const {Color} = require('yacml');
+const {Color} = require('@orangejedi/yacml');
 
 let red = new Color("#ff0000");
 red.brightness(50); //reduce brightness to 50%
@@ -132,7 +132,7 @@ YACML exports all its internal functions for individual use. All functions take 
 
 Use these functions like this:
 ```javascript
-const yacml = require('yacml');
+const yacml = require('@orangejedi/yacml');
 
 yacml.rgbToHex([255,0,0]) //ff0000
 yamcl.hexToRgb("#ff0000") //[255,0,0]
